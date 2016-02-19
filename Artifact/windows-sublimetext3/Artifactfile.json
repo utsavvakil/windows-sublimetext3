@@ -1,0 +1,14 @@
+{
+  "title": "Sublime Text 3",
+  "description": "Installs Sublime Text 3 using the Chocolatey package manager",
+  "tags": [
+    "Windows",
+    "PuTTy"
+  ],
+  "iconUri": "https://raw.githubusercontent.com/AntoineBoulanger/Minimal-Sublime-Text-Theme/master/sublime_text.ico",
+  "targetOsType": "Windows",
+  "runCommand": {
+    "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File startChocolatey.ps1 -PackageList sublimetext3"
+
+  }
+}
